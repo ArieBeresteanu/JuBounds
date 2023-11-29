@@ -138,30 +138,6 @@ function angles(p::Polygon)
     return ang
 end
 
-# the y coordinate of a vertex
-function fetchY(ver::Vertex)
-    # taking the y-coordinate out of the vertex
-    return ver.v[2]
-end
-
-function xangle(p1::Vertex,p2::Vertex)
-    #computes the angle that the vector starting from vertex p1 and ending at vertex p2 makes with the x-axis
-    Δ = (p2-p1).v
-    flag=false
-    if Δ[2] < 0
-        Δ[2] = -Δ[2]
-        flag = true
-    end
-    xang =atan(Δ[2],abs(Δ[1]))
-    if Δ[1]<0
-        xang = π-xang
-    end
-    if flag
-        xang=2*π-xang
-    end
-    return xang
-
-end
 
 ## Sorting a Polygon function
 
