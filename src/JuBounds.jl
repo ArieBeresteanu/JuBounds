@@ -9,7 +9,7 @@ using DataFrames,Plots
 ####################
 
 include("vertices.jl") 
-export Vertex, subVertex, addVertex, lambdaVertex, negVertex #, xangle, fetchX, fetchY
+export Vertex, subVertex, addVertex, lambdaVertex, negVertex,  xangle, fetchX, fetchY
 
 include("segments.jl") 
 export Segment, dotDist, xangle
