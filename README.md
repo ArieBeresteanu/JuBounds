@@ -16,7 +16,14 @@
 Implementing partial identification estimators. This is a Julia version of a very old Stata and Matlab packages that I wrote with Chuck Manski when I was a grad student. This package is under development and is in its infancy. Comments, suggestions and help are, obviously welcome.
 
 ## Instalation
-TBA
+in Julia's REPL press the **]** key and when you get the blue prompt type:
+```
+add https://github.com/ArieBeresteanu/JuBounds
+```
+After installing the package, type:
+```
+using JuBounds
+```
 
 ## Examples
 TBA
