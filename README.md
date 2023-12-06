@@ -28,7 +28,8 @@ using JuBounds
 ## Examples
 TBA
 
-**Team:** Arie Beresteanu, Yunyun LV
+## Team
+Arie Beresteanu, Yunyun LV
 
 Plan:
 - [ ] stage 1: Implement all that we had in the Stata/Matlab package
